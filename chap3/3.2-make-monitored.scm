@@ -1,5 +1,5 @@
 ;; to write a fn named "make-monitored" that can trace the fn
-;; and return the no. of the fn been called
+;; and return the no. of the fn being called
 ;;
 ;; sub-procedures
 ;; 
