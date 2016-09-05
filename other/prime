@@ -1,0 +1,10 @@
+( define ( prime? n )
+	( define ( iter n count )
+		( cond
+		( ( or( eq? n 1 )( eq? n 0 )) #f )
+		( ( or( eq? n 2 )( eq? n 3 )) #t )
+		( ( or( even? n )( zero? ( remainder n count ))) #f )
+		( ( > count ( sqrt n ) ) #t )
+		( else ( iter n ( + count 2 )))))
+	( iter n 3 )
+)
