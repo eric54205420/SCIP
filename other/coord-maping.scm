@@ -1,3 +1,11 @@
+;; see also
+;; sicp-pict/prmpnt.scm
+;; sicp-pict/hutils.scm
+;; sicp-pict/hend.scm
+
+;http://eprints.soton.ac.uk/257577/1/funcgeo2.pdf
+;http://users.ecs.soton.ac.uk/ph/funcgeo.pdf
+
 ;; racket only
 
 (require (lib "racket/draw"))
